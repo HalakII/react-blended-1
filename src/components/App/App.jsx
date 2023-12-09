@@ -1,5 +1,6 @@
 import article from 'data/article.json';
 import data from 'data/data.json';
+import forbes from 'data/forbes.json';
 import {
   BlogCard,
   Container,
@@ -18,7 +19,6 @@ export const App = () => {
           Task 1
         </Heading>
         <BlogCard {...article} />
-
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 2
         </Heading>
@@ -26,7 +26,7 @@ export const App = () => {
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 3
         </Heading>
-        <ForbesList />
+        <ForbesList list={forbes} />
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 4
         </Heading>
