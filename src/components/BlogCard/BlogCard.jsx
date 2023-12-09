@@ -1,4 +1,4 @@
-import { dataFormatToNow } from 'helppers/formatDate';
+import { dataFormatToNow } from 'helppers/formatDateNow';
 import {
   Avatar,
   Card,
