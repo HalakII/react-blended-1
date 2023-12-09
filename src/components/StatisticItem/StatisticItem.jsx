@@ -8,7 +8,7 @@ import {
 export const StatisticItem = ({ title, total, icon }) => {
   return (
     <StatisticBox>
-      <IconContext.Provider value={{ color: 'blue', size: '2em' }}>
+      <IconContext.Provider value={{ color: 'red', size: '2em' }}>
         {icon}
       </IconContext.Provider>
       <StatisticCounter>{total}</StatisticCounter>
