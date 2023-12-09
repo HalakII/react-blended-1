@@ -14,7 +14,7 @@ import {
   UserName,
   Date,
 } from './BlogCard.styled';
-
+//  component
 export const BlogCard = ({
   poster,
   title,
